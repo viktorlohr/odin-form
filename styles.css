@@ -33,7 +33,6 @@ body {
 }
 
 .logo-container {
-  margin-top: 40vw;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 4rem;
   color: white;
@@ -41,6 +40,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .logo-title {
@@ -62,7 +63,7 @@ body {
 
 .form-side {
   flex: 2 1 60vw;
-  padding: 2rem;
+  padding: 5vw;
 }
 
 .inspiring-text {

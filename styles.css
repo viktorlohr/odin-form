@@ -111,3 +111,11 @@ div:has(input) {
   display: flex;
   flex-direction: column;
 }
+
+a {
+  color: var(--green);
+}
+
+.fancy-side a {
+  color: inherit;
+}

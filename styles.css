@@ -72,10 +72,20 @@ body {
 .form-container {
   padding: 1rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   box-shadow: 4px 4px 4px rgb(106, 106, 106);
   border-radius: 6px;
   background-color: white;
+  gap: 2rem;
+}
+
+.form-container div {
+  flex: 0 0 50px;
+}
+
+label {
+  font-size: 0.8rem;
+  color: rgb(159, 159, 159);
 }
 
 button {
@@ -94,4 +104,9 @@ form button {
 .exclamation {
   font-size: 1.5rem;
   margin: 2rem 0;
+}
+
+div:has(input) {
+  display: flex;
+  flex-direction: column;
 }

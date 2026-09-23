@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <div class="form-container">
+    <div class="form-side">
       <p class="inspiring-text">
         We believe that our product is way better than the other ones. You know
         that this is true <em>deep in your heart.</em> Also, you will give us a
@@ -46,40 +46,37 @@
         <em>Signing up</em> is the <em> best </em> thing you can do!
       </p>
       <form>
-        <caption>
-          To sign up, enter your personal information.
-        </caption>
+        <div class="form-container">
+          <div>
+            <label for="fst">First Name</label>
+            <input type="text" name="fst" id="fst" />
+          </div>
 
-        <div>
-          <label for="fst">First Name</label>
-          <input type="text" name="fst" id="fst" />
+          <div>
+            <label for="snd">Second Name</label>
+            <input type="text" name="snd" id="snd" />
+          </div>
+
+          <div>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="email" id="phone" />
+          </div>
+
+          <div>
+            <label for="pw">Password</label>
+            <input type="password" name="password" id="pw" />
+          </div>
+
+          <div>
+            <label for="confirm-pw">Confirm Password</label>
+            <input type="password" name="confirm-pw" id="confirm-pw" />
+          </div>
         </div>
-
-        <div>
-          <label for="snd">Second Name</label>
-          <input type="text" name="snd" id="snd" />
-        </div>
-
-        <div>
-          <label for="email">E-Mail</label>
-          <input type="email" name="email" id="email" />
-        </div>
-
-        <div>
-          <label for="phone">Phone Number</label>
-          <input type="tel" name="email" id="phone" />
-        </div>
-
-        <div>
-          <label for="pw">Password</label>
-          <input type="password" name="password" id="pw" />
-        </div>
-
-        <div>
-          <label for="confirm-pw">Confirm Password</label>
-          <input type="password" name="confirm-pw" id="confirm-pw" />
-        </div>
-
         <button>Create Account</button>
       </form>
       <div class="already-signed-up">

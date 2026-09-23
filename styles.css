@@ -1,5 +1,9 @@
 @import "normalize.css";
 
+:root {
+  --green: rgb(52, 91, 52);
+}
+
 * {
   font-family: Roboto, Arial, Helvetica, sans-serif, system-ui;
 }
@@ -56,7 +60,7 @@ body {
   font-size: 0.8rem;
 }
 
-.form-container {
+.form-side {
   flex: 2 1 60vw;
   padding: 2rem;
 }
@@ -65,17 +69,25 @@ body {
   font-size: 1.3rem;
 }
 
-form {
-  margin: 3rem 0rem;
+.form-container {
   padding: 1rem;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   box-shadow: 4px 4px 4px rgb(106, 106, 106);
   border-radius: 6px;
   background-color: white;
 }
 
-form > * {
+button {
+  background-color: var(--green);
+  color: whitesmoke;
+  border-radius: 12px;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 2px 2px 2px darkslategray;
+}
+
+form button {
   margin: 1rem;
 }
 

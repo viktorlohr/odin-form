@@ -1,57 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles.css" rel="stylesheet">
-  <title>Document</title>
-</head>
-<body>
-  <div class="fancy-side">
-    <img src="odin-logo.png">
-    <div class="photo-credit">
-      Photo by <a>Halie West</a> on <a>Unsplash</a> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="fancy-side">
+      <img class="odin-logo" src="odin-logo.png" />
+      <div>
+        <div class="photo-credit">
+          <span>Photo by <a>Halie West</a> on <a>Unsplash</a></span>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="form-container">
-    <p class="inspiring-text">
-      We believe that our product is way better than the other ones.
-      You know that this is true <em>deep in your heart.</em>
-      Also, you will give us a lot of money which is <em>great.</em>
-    </p>
-    <p>
-      <em>Signing up</em> is the <em> best </em> thing you can do!
-    </p>
-    <form>
-      <caption>
-        To sign up, enter your personal information.
-      </caption>
-      
-      <label for="fst">First Name</label>
-      <input type="text" name="fst" id="fst">
+    <div class="form-container">
+      <p class="inspiring-text">
+        We believe that our product is way better than the other ones. You know
+        that this is true <em>deep in your heart.</em> Also, you will give us a
+        lot of money which is <em>great.</em>
+      </p>
+      <p><em>Signing up</em> is the <em> best </em> thing you can do!</p>
+      <form>
+        <caption>
+          To sign up, enter your personal information.
+        </caption>
 
-      <label for="snd">Second Name</label>
-      <input type="text" name="snd" id="fst">
+        <label for="fst">First Name</label>
+        <input type="text" name="fst" id="fst" />
 
-      <label for="email">E-Mail</label>
-      <input type="email" name="email" id="email">
+        <label for="snd">Second Name</label>
+        <input type="text" name="snd" id="snd" />
 
-      <label for="phone">Phone Number</label>
-      <input type="tel" name="email" id="email">
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" id="email" />
 
-      <label for="pw">Password</label>
-      <input type="password" name="password" id="pw">
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="email" id="phone" />
 
-      <label for="confirm-pw">Confirm Password</label>
-      <input type="password" name="confirm-pw" id="confirm-pw">
-      
-      <button>
-        Create Account
-      </button>
-    </form>
-    <div class="already-signed-up">
-      Already have an account? <a>Log in</a>
+        <label for="pw">Password</label>
+        <input type="password" name="password" id="pw" />
+
+        <label for="confirm-pw">Confirm Password</label>
+        <input type="password" name="confirm-pw" id="confirm-pw" />
+
+        <button>Create Account</button>
+      </form>
+      <div class="already-signed-up">
+        Already have an account? <a>Log in</a>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

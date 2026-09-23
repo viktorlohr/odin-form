@@ -1,0 +1,38 @@
+@import "normalize.css";
+
+:html {
+  display: flex;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fancy-side {
+  background-image: url("halie-west_background-picture.avif");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 40vw;
+  align-self: stretch;
+}
+
+.form-container {
+  flex: 2 1 60vw;
+  padding: 2rem;
+}
+
+.odin-logo {
+  margin-top: 20vw;
+  align-self: center;
+  width: 20vw;
+}
+
+.photo-credit {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  color: white;
+}

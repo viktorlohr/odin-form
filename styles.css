@@ -28,10 +28,21 @@ body {
   align-self: stretch;
 }
 
+.logo-container {
+  margin-top: 40vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  font-family: "Times New Roman";
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .odin-logo {
-  margin-top: 20vw;
   align-self: center;
-  width: 20vw;
+  width: 10vw;
 }
 
 .photo-credit {

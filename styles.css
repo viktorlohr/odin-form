@@ -32,12 +32,15 @@ body {
   margin-top: 40vw;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 4rem;
-  font-family: "Times New Roman";
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+.logo-title {
+  font-family: Norse, serif, "Times New Roman", serif;
 }
 
 .odin-logo {
@@ -49,7 +52,8 @@ body {
   align-self: flex-end;
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(256, 256, 256, 0.5);
+  font-size: 0.8rem;
 }
 
 .form-container {

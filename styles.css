@@ -86,6 +86,7 @@ body {
 label {
   font-size: 0.8rem;
   color: rgb(159, 159, 159);
+  font-variant: caps;
 }
 
 button {

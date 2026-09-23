@@ -1,5 +1,13 @@
 @import "normalize.css";
 
+* {
+  font-family: Roboto, Arial, Helvetica, sans-serif, system-ui;
+}
+
+em {
+  font-family: "Georgia";
+}
+
 :html {
   display: flex;
 }
@@ -8,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: aliceblue;
 }
 
 .fancy-side {
@@ -17,11 +26,6 @@ body {
   justify-content: space-between;
   flex: 1 1 40vw;
   align-self: stretch;
-}
-
-.form-container {
-  flex: 2 1 60vw;
-  padding: 2rem;
 }
 
 .odin-logo {
@@ -35,4 +39,27 @@ body {
   display: flex;
   justify-content: center;
   color: white;
+}
+
+.form-container {
+  flex: 2 1 60vw;
+  padding: 2rem;
+}
+
+.inspiring-text {
+  font-size: 1.3rem;
+}
+
+form {
+  margin: 3rem 0rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  box-shadow: 4px 4px 4px rgb(106, 106, 106);
+  border-radius: 6px;
+  background-color: white;
+}
+
+form > * {
+  margin: 1rem;
 }
